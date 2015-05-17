@@ -10,6 +10,6 @@ Snippet is called from liquid with the following options:
  * `lang:<lang>`: The language (Required)
  * `linenos`: Display line numbers (Optional)
  * `lines:<start>-<stop>`: Show only line start till stop from the file (Optional)
- * `tag:<tagname>`: Show the code lines between `[snippet:<tagname> start]` and `[snippet:<tagname> stop]` from the given file.
+ * `tag:<tagname>`: Show the code lines between `[snippet:<tagname> start]` and `[snippet:<tagname> stop]` from the given file. (Optional)
 
 The plugin reads in the file (or part of), and passes this to the jekyll highlighter.
